@@ -52,7 +52,9 @@
     <button onclick="chaseBypass()">How did i get sourcecode</button>
     <button onclick="chaseQuestion()">INFO</button>
     <button onclick="chaseFAQ()">FAQ</button>
-    <button onclick="timeTellerTillNextUpdate()">Time Teller Till Next Update</button>
+    <button onclick="timeTellerTillNextUpdate()">broken btn</button>
+    <button onclick="myFunction()">How is this made</button>
+<p id="demo"></p>
     <li>how is this made? well i got the source code from inspect element, now how to get key. so the first thing you wanna do is that u want to tap on the Get Key button now it will lead u to the apiKey genorator and tap the generate button so you will get key , and then u can use the key for aquaa's site too, i dont recommend you to leak this as aquaa will kick yall out [ use alts if you want to] so yeah</li>
     <li>this bypassed key even workes on aquaa keysystem</li>
     <script>
@@ -84,36 +86,9 @@
         function chaseFAQ() {
             alert("1. suck my dick \n 2.suck it until it cums \n 3. let me fuck u")
         }
-        function timeTellerTillNextUpdate() {
-        // Set the date we're counting down to
-var countDownDate = new Date("Jan 31, 2024 15:37:25").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-        }
+function myFunction() {
+  document.getElementById("demo").innerHTML = "well i got everything from inspect element";
+}
     </script>
 </body>
 </html>
